@@ -67,11 +67,19 @@ StreamRift ist eine Chrome Extension, mit der du Streaming-Inhalte perfekt synch
 
 ## Version & Änderungen
 
-**Aktuelle Version: v0.5.1** – 2026-03-10
+**Aktuelle Version: v0.6.0** – 2026-03-10
 
-### Was ist neu in v0.5.1?
+### Was ist neu in v0.6.0?
 
-chore: bump version to 0.5.1
+deploy: Host-Transfer + Bug-Fixes deployen — v0.6.0
+
+Enthält:
+- feat: Manueller Host-Transfer (GOODBYE-Event, ArrowRightLeft-Button)
+- fix: Host-ContentURL bei Peer-Join korrekt übertragen (cachedContentUrlMessage)
+- fix: Zombie-Host verhindern wenn letzter Peer allein bleibt
+- fix: Teilnehmerliste bei Verlassen sofort aktualisieren (GOODBYE-Event)
+- fix: HOST_TRANSFER Absender verifizieren (BUG-2 Security)
+- fix: Host-Badge nach Transfer sofort aktualisieren (BUG-3)
 
 Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
 
