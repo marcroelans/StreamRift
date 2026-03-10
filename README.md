@@ -67,17 +67,11 @@ StreamRift ist eine Chrome Extension, mit der du Streaming-Inhalte perfekt synch
 
 ## Version & Änderungen
 
-**Aktuelle Version: v0.4.0** – 2026-03-10
+**Aktuelle Version: v0.5.1** – 2026-03-10
 
-### Was ist neu in v0.4.0?
+### Was ist neu in v0.5.1?
 
-chore: add deployment pipeline, README and CHANGELOG
-
-- GitHub Actions workflow (deploy.yml) triggered by v* tags
-- Builds extension, runs lint + tests, deploys dist/ to StreamRift repo
-- generate-dist-readme.js generates user-facing README with version + changelog
-- README.md with full developer documentation (setup, architecture, workflow)
-- CHANGELOG.md template with v0.4.0 initial entry
+chore: bump version to 0.5.1
 
 Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
 
