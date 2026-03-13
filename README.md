@@ -67,17 +67,11 @@ StreamRift ist eine Chrome Extension, mit der du Streaming-Inhalte perfekt synch
 
 ## Version & Änderungen
 
-**Aktuelle Version: v0.6.1** – 2026-03-10
+**Aktuelle Version: v0.7.0** – 2026-03-13
 
-### Was ist neu in v0.6.1?
+### Was ist neu in v0.7.0?
 
-deploy: Sync-Bugs + Content Script Fixes deployen — v0.6.1
-
-- Peer bleibt nicht mehr permanent in "Synchronisiere..." (8s Timeout → idle)
-- Peer wird nach SYNC_RESPONSE korrekt pausiert wenn Host pausiert ist
-- SYNC_RESPONSE von neuem Host nach Transfer wird akzeptiert (_hostPeerId Update)
-- Fehlende .catch() in Content Script behoben (verhindert Stacktrace-Fehler)
-- _eventsToIgnore bei APPLY_PAUSE präzise je nach video.paused-Zustand
+deploy(PROJ-12): Deploy Peer Playback Control via Host Relay — v0.7.0
 
 Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
 
